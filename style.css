@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* html {
+	background: url(./img/Travel\ Time\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1024px;
+} */
+html {
+	background: url(./img/Travel\ Time.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1024px;
+}
+
+.header_links {
+    margin-top: 73px;
+    margin-left: 115px;
+    font-weight: 500;
+}
+
+.header_links a {
+    margin-right: 122px;
+}
+.header_links a:last-child {
+    margin-right: 0;
+}
+.header_links .activated {
+    /* underline */
+    border-bottom: 2px solid #000;padding-bottom: 3px;
+    /* outline */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.header_text {
+    margin-left: 326px;
+    margin-right: 365px;
+    margin-top: 157px;
+    text-align: center;
+    color: white;
+    font-weight: 275;
+}
+.header_text h1{
+    font-size: 96px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-bottom: 42px;
+}
+
+.header_button{
+    margin-top: 381px;
+    margin-left: 600px;
+}
+.header_button a {
+    background-color: #00b43d;
+    border: 8px solid white;
+    padding: 16px 74px;
+    border-radius: 8px;
+}
+
